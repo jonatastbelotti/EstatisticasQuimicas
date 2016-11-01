@@ -17,6 +17,9 @@ import utilidades.Arquivo;
  */
 public class TelaPrincipal extends javax.swing.JFrame {
 
+  private FileDialog janelaAbrir;
+  private FileDialog janelaSalvar;
+
   /**
    * Creates new form TelaPrincipal
    */
@@ -39,7 +42,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     jBtnSelecionarArquivo = new javax.swing.JButton();
     jScrollPane1 = new javax.swing.JScrollPane();
     jTxtResposta = new javax.swing.JTextPane();
-    jTxtCalcular = new javax.swing.JButton();
+    jBtnCalcular = new javax.swing.JButton();
     jBtnSalvarArquivo = new javax.swing.JButton();
     jBtnLimpar = new javax.swing.JButton();
 
@@ -58,14 +61,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     jScrollPane1.setViewportView(jTxtResposta);
 
-    jTxtCalcular.setText("Calcular");
-    jTxtCalcular.addActionListener(new java.awt.event.ActionListener() {
+    jBtnCalcular.setText("Calcular");
+    jBtnCalcular.setEnabled(false);
+    jBtnCalcular.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        jTxtCalcularActionPerformed(evt);
+        jBtnCalcularActionPerformed(evt);
       }
     });
 
     jBtnSalvarArquivo.setText("SALVAR");
+    jBtnSalvarArquivo.setEnabled(false);
     jBtnSalvarArquivo.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
         jBtnSalvarArquivoActionPerformed(evt);
@@ -73,6 +78,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     });
 
     jBtnLimpar.setText("Limpar");
+    jBtnLimpar.setEnabled(false);
     jBtnLimpar.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
         jBtnLimparActionPerformed(evt);
@@ -93,7 +99,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
           .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
               .addGroup(layout.createSequentialGroup()
-                .addComponent(jTxtCalcular, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jBtnCalcular, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jBtnSalvarArquivo, javax.swing.GroupLayout.DEFAULT_SIZE, 116, Short.MAX_VALUE))
               .addComponent(jTxtArquivo))
@@ -114,7 +120,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
           .addComponent(jBtnSelecionarArquivo))
         .addGap(18, 18, 18)
         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-          .addComponent(jTxtCalcular)
+          .addComponent(jBtnCalcular)
           .addComponent(jBtnSalvarArquivo)
           .addComponent(jBtnLimpar))
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
@@ -126,59 +132,62 @@ public class TelaPrincipal extends javax.swing.JFrame {
   }// </editor-fold>//GEN-END:initComponents
 
   private void jBtnSelecionarArquivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSelecionarArquivoActionPerformed
-    FileDialog janelaArquivo;
     String caminho, nome;
-    
-    janelaArquivo= new FileDialog(this, "Selecone o arquivo", FileDialog.LOAD);
-    janelaArquivo.setMultipleMode(false);
-    janelaArquivo.setFile("*.txt");
-    janelaArquivo.setVisible(true);
-    caminho = janelaArquivo.getDirectory();
-    nome = janelaArquivo.getFile();
-    
+
+    if (this.janelaAbrir == null) {
+      this.janelaAbrir = new FileDialog(this, "Selecone o arquivo", FileDialog.LOAD);
+    }
+
+    this.janelaAbrir.setMultipleMode(false);
+    this.janelaAbrir.setVisible(true);
+    caminho = this.janelaAbrir.getDirectory();
+    nome = this.janelaAbrir.getFile();
+
     if (caminho != null && nome != null) {
       jTxtArquivo.setText(caminho + nome);
+
+      jBtnCalcular.setEnabled(true);
     }
   }//GEN-LAST:event_jBtnSelecionarArquivoActionPerformed
 
-  private void jTxtCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTxtCalcularActionPerformed
+  private void jBtnCalcularActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnCalcularActionPerformed
     Estatistica estatistica = new Estatistica();
     Arquivo arquivo = new Arquivo();
 
     if (jTxtArquivo.getText().equals("") == false) {
       jTxtResposta.setText(estatistica.calcular(arquivo.lerArquivo(jTxtArquivo.getText())));
+
+      jBtnSalvarArquivo.setEnabled(true);
+      jBtnLimpar.setEnabled(true);
     }
-  }//GEN-LAST:event_jTxtCalcularActionPerformed
+  }//GEN-LAST:event_jBtnCalcularActionPerformed
 
   private void jBtnSalvarArquivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnSalvarArquivoActionPerformed
-    FileDialog janelaSalvar = new FileDialog(this, "Salvar arquivo", FileDialog.SAVE);
-    janelaSalvar.setVisible(true);
-    String caminhoArquivo = "";
-
     if (!jTxtResposta.getText().equals("")) {
-      Arquivo arquivo = new Arquivo();
-      JFileChooser chooser = new JFileChooser();
-      FileNameExtensionFilter filter = new FileNameExtensionFilter("txt", "TXT");
-      chooser.setFileFilter(filter);
-      chooser.setDialogTitle("Salvar arquivo");
-      chooser.setApproveButtonText("Salvar");
+      String caminhoArquivo = "";
 
-      int op = chooser.showOpenDialog(this);
-      if (op == JFileChooser.APPROVE_OPTION) {
-        File arq = chooser.getSelectedFile();
-        caminhoArquivo = arq.toString();
-
-        if (caminhoArquivo.indexOf(".") == -1) {
-          caminhoArquivo += ".txt";
-        }
-
-        arquivo.salvarArquivo(caminhoArquivo, jTxtResposta.getText());
+      if (this.janelaSalvar == null) {
+        this.janelaSalvar = new FileDialog(this, "Salvar arquivo", FileDialog.SAVE);
       }
+
+      this.janelaSalvar.setVisible(true);
+
+      Arquivo arquivo = new Arquivo();
+
+      caminhoArquivo = this.janelaSalvar.getDirectory() + this.janelaSalvar.getFile();
+
+      if (caminhoArquivo.indexOf(".") == -1) {
+        caminhoArquivo += ".txt";
+      }
+
+      arquivo.salvarArquivo(caminhoArquivo, jTxtResposta.getText());
     }
   }//GEN-LAST:event_jBtnSalvarArquivoActionPerformed
 
   private void jBtnLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBtnLimparActionPerformed
     jTxtResposta.setText("");
+    jBtnLimpar.setEnabled(false);
+    jBtnSalvarArquivo.setEnabled(false);
   }//GEN-LAST:event_jBtnLimparActionPerformed
 
   /**
@@ -217,13 +226,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
   }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
+  private javax.swing.JButton jBtnCalcular;
   private javax.swing.JButton jBtnLimpar;
   private javax.swing.JButton jBtnSalvarArquivo;
   private javax.swing.JButton jBtnSelecionarArquivo;
   private javax.swing.JLabel jLabel1;
   private javax.swing.JScrollPane jScrollPane1;
   private javax.swing.JTextField jTxtArquivo;
-  private javax.swing.JButton jTxtCalcular;
   private javax.swing.JTextPane jTxtResposta;
   // End of variables declaration//GEN-END:variables
 }

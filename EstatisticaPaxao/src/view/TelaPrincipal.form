@@ -36,7 +36,7 @@
                   <Group type="102" alignment="1" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Component id="jTxtCalcular" min="-2" pref="134" max="-2" attributes="0"/>
+                              <Component id="jBtnCalcular" min="-2" pref="134" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jBtnSalvarArquivo" pref="116" max="32767" attributes="0"/>
                           </Group>
@@ -65,7 +65,7 @@
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTxtCalcular" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jBtnCalcular" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jBtnSalvarArquivo" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jBtnLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -103,17 +103,19 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="jTxtCalcular">
+    <Component class="javax.swing.JButton" name="jBtnCalcular">
       <Properties>
         <Property name="text" type="java.lang.String" value="Calcular"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTxtCalcularActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnCalcularActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBtnSalvarArquivo">
       <Properties>
         <Property name="text" type="java.lang.String" value="SALVAR"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnSalvarArquivoActionPerformed"/>
@@ -122,6 +124,7 @@
     <Component class="javax.swing.JButton" name="jBtnLimpar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Limpar"/>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnLimparActionPerformed"/>
