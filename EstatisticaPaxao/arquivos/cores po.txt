@@ -1,0 +1,758 @@
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 09:55:51 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1A-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   09:56:43 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 1A-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  28.6042   a* =   1.4905   b* =  -0.7937
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 09:57:20 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1A-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   09:58:10 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 1A-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  27.3622   a* =   1.4390   b* =  -0.4866
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 09:58:18 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1A-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   09:59:8 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 1A-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  27.4059   a* =   1.6010   b* =  -0.5568
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:02:46 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1B-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:03:37 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 1B-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  30.4075   a* =   1.5144   b* =  -1.1265
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:03:46 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1B-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:04:44 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\1B-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:05:34 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 1B-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  28.3403   a* =   1.4759   b* =  -0.7338
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:07:34 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2A-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:08:28 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 2A-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  23.2828   a* =   2.5931   b* =  -0.5652
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:08:53 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2A-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:09:43 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 2A-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  24.6324   a* =   2.4603   b* =  -0.6506
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:09:53 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2A-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:10:42 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 2A-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.8074   a* =   2.4802   b* =  -0.4773
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:12:04 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2B-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:13:06 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2B-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:13:57 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 2B-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.6733   a* =   2.6872   b* =  -0.5031
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:14:07 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\2B-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:14:57 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 2B-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.5946   a* =   2.9371   b* =  -0.4368
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:16:21 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\3-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:17:14 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 3-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  30.7447   a* =   1.4501   b* =  -2.6088
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:18:57 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\3-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:19:47 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 3-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  28.9258   a* =   1.5604   b* =  -2.2328
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:20:03 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\3-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:20:53 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 3-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  24.7659   a* =   1.7325   b* =  -1.8891
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:21:42 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4A-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:22:33 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4A-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  27.3461   a* =   0.9382   b* =  -0.3986
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:22:45 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4A-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:23:36 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4A-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.4496   a* =   0.8809   b* =  -0.2803
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:23:53 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4A-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:24:42 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4A-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.3065   a* =   0.6831   b* =  -0.1843
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:25:16 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4B-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:26:6 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4B-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  30.7386   a* =   1.3248   b* =   0.2417
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:26:20 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4B-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:27:11 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4B-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  29.3124   a* =   1.0285   b* =   0.3591
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:27:25 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\4B-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:28:15 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 4B-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  27.2234   a* =   1.2898   b* =   0.0010
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:29:09 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5A-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:30:0 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5A-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  24.5842   a* =   6.2261   b* =   4.1010
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:30:12 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5A-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:31:2 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5A-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.2612   a* =   6.5269   b* =   4.2091
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:31:11 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5A-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:32:2 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5A-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  22.8660   a* =   6.2469   b* =   3.9859
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:33:24 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5B-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:34:15 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5B-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.0473   a* =   3.8416   b* =   2.2165
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:34:44 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5B-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:35:34 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5B-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.8831   a* =   4.1497   b* =   2.4102
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:35:44 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\5B-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:36:35 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 5B-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  30.0884   a* =   4.2334   b* =   2.1947
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:37:56 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\6-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:38:47 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 6-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.3959   a* =   3.7499   b* =   0.7847
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:38:57 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\6-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:39:48 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 6-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.4938   a* =   3.8119   b* =   0.7266
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:39:56 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\6-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:40:46 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 6-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  25.2303   a* =   3.6145   b* =   0.7767
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:41:25 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\7-1.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:42:15 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 7-1
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  32.4709   a* =   1.4380   b* =   0.5552
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:42:30 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\7-2.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:43:20 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 7-2
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  30.7480   a* =   1.4589   b* =   0.5581
+ 
+
+
+Color Analysis Report 
+
+Report Time : Tue 04 Oct 10:43:40 AM 2016
+Batch: C:\Documents and Settings\All Users\Application Data\Varian\Cary WinUV\QUIMICA\Eder\Leticya\041016\7-3.DCL
+Software version: 4.10(464)
+Operator: 
+
+
+Color Calculations
+
+Date                   10:44:30 am 04 Oct 2016
+Method Name            
+Wavelength Range       360 to 830 nm
+Interval               1  nm
+Observer Angle         10 Degrees
+
+Sample name : 7-3
+File name   : not saved
+
+Illuminant =  CIE D65
+CIELAB          :  L* =  26.0955   a* =   1.0740   b* =   0.2595
+ 
